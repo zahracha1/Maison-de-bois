@@ -1,0 +1,124 @@
+
+
+.image{
+    text-align: center;
+}
+.image-smilateur{
+    height: 90%;
+    width: 90%;
+}
+
+.similateur{
+    margin-top: 150px;
+}
+@media  screen and (max-width:1024px){
+    .image-smilateur{
+        height:90%;
+        width: 90%;
+    }
+    .similateur{
+        margin-top: 100px;
+    }
+}
+.Arrow-Right{
+    position: absolute;
+    left: 97%;
+    margin-top: 45px;
+}
+.Arrow-left{
+    position: absolute;
+    right: 97%;
+    margin-top: 45px;
+}
+@media  screen and (max-width:1024px){
+    .Arrow-Right{
+        position: absolute;
+        left: 92%;
+        margin-top: 45px;
+    }
+    .Arrow-left{
+        position: absolute;
+        right: 92%;
+        margin-top: 45px;
+    }
+    
+}
+
+.flex_row{
+
+    gap: 10px;
+    
+    flex-wrap: nowrap;
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+    
+    flex-direction: row;
+    float: none;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    object-fit: contain;
+}
+.box{
+ box-shadow: rgba(0, 0, 0, 0.3);
+ z-index: -1;
+ margin-bottom: 50px;
+
+}
+
+
+.flex_row::-webkit-scrollbar{
+    display: none;
+}
+
+
+.flex_row .thumbnail{
+   
+    flex-basis: 50px;
+    align-items: flex-start;
+    transition: transfrom 450ms ;
+    
+}
+
+
+
+.flex_row .thumbnail:hover{
+    transform: scale(1.08);
+    border:1 px solide #777
+
+}
+
+.flex_row .thumbnail:first-child{
+    flex-grow: 100px;
+    
+}
+
+.thumbnail h1{
+    font-size:10pt;
+    color: black;
+    font-family: Verdana, sans-serif;
+    margin: 15px;
+    font-weight : bold;
+    text-transform : lowercase;
+    text-transform : capitalize;
+    
+}
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    background: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.slick-arrow.slick ::before,
+.slick-arrow.slick ::after {
+    display: none;
+}
+
+

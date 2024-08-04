@@ -1,0 +1,86 @@
+.pricing {
+  width: 100%;
+  padding: 6rem 1rem;
+  background: rgb(253, 253, 253);
+  justify-items: center;
+  padding-top: 0;
+}
+.card-container {
+  max-width: 1140px;
+  grid-template-columns: repeat(3, 3fr);
+  display: grid;
+  grid-gap: 40px;
+  margin-left: 300px;
+}
+.card {
+  border: 1px solid #eee;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card p {
+  padding: 10px 0;
+  font-size: 1.4rem;
+}
+.card h4 {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1024px) {
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    display: grid;
+  }
+}
+.pricing h1 {
+  text-align: center;
+  padding: 70px 0;
+  color: brown;
+}
+.row h1 {
+  text-align: center;
+  color: brown;
+  padding: 30px 0;
+}
+.card a {
+  color: black;
+  font-size: 1rem;
+}
+.card a:hover {
+  color: rgb(252, 79, 11);
+}
+
+.row iframe {
+  height: 300px;
+}
+.contact{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ,url(./../imgs/contact.jpg);
+  background-size: cover;
+  max-width:100%;
+  text-align: center;
+  height: 500px;
+  overflow: hidden;
+  padding: 25px 0px;
+  margin-top: 80px;
+
+  } 
+  
+  .contact h1{
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 60px;
+    margin-top: 50px;
+  }
+  p a{
+    text-decoration: none;
+  }
+  
